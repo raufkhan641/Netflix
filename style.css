@@ -1,0 +1,387 @@
+/* Netflix Clone CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#0c0c0c;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background:rgba(0,0,1,0.4)url('./PK-en-20250310-TRIFECTA-perspective_ca34d8f4-529a-4d72-b5e0-ff06a24f219b_large.jpg') ;
+    background-blend-mode: darken;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 32, 32, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    width:200px;
+    position: relative;
+    bottom: 1.3em;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    height: 2.5em;
+    position: relative;
+    right: 6em;
+    bottom: 0.3em;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-box input {
+    padding: 10px;
+    width: 390px;
+    height: 1.8em;
+    font-size: 16px;
+    border: 1px solid rgb(156, 156, 153);
+    border-radius: 5px;
+    /* From https://css.glass */
+    background: rgba(96, 86, 86, 0.53);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(px);
+    -webkit-backdrop-filter: blur(4px);
+    position: relative;
+    bottom: 1em;
+    
+    
+
+}
+
+.email-box button {
+    background-color: red;
+    color: rgb(240, 231, 231);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 0.3em;
+    height: 3.2em;
+    width: 12em;
+    position: relative;
+    bottom: 1em;
+    font-weight: 900;
+    padding-bottom: 0.7em;
+    padding-left: 0.5em;
+
+}
+
+.strs {
+    font-weight: bold;
+    position: relative;
+    bottom: 1.8em;
+    
+}
+
+.ready {
+    position: relative;
+    bottom: 0.7em;
+    letter-spacing: -0.7px;
+    
+    
+}
+
+.email-box button:hover{
+    background-color: rgb(216, 37, 37);
+    transition: 0.5s;
+    
+}
+.sign-in:hover{
+    background-color: rgb(216, 37, 37);
+    transition: 0.5s;
+    
+}
+
+input:focus{
+   outline-style: none;
+   box-shadow: navy;
+   border: 3px solid rgb(250, 248, 245);
+   transition: 0.5s;
+   padding-left: 3px;
+   padding-top: 0px;
+  
+   height: 2em;
+}
+::placeholder{
+    color: aliceblue;
+    font-size: small;
+}
+#next{
+    position: relative;
+    left: 8px;
+    top: 8px;
+    
+}
+.trnd{
+    color: aliceblue;
+     position: relative;
+     left: 10.5em;
+     top: 1.5em;
+
+
+}
+.pic{
+    display: flex;
+     gap: em;  
+     position: relative;
+     left:8em;
+     top: 1.5em;
+
+}
+img{
+    border-radius: 7px;
+    
+}
+.btn{
+    background-color: #1A1A1A;
+    height: 9em;
+    width: 2em;
+    position: relative;
+    top: 7em;
+    left: 1em;
+    border-radius: 8px;
+    border: none;
+}
+.btn:hover{
+    background-color: #3e3b3b;
+
+
+    
+}
+
+.on:hover{
+    
+     transition: 1s; 
+    transform: scale(1.1);
+      
+}
+.two:hover{
+    
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+.thr:hover{
+    
+    transition: 1s;
+    transform: scale(1.1);
+      
+}
+.four:hover{
+    
+    transition: 1s;
+    transform: scale(1.1);
+      
+}
+.five:hover{
+    
+    transition: 1s;
+    transform: scale(1.1);
+      
+}
+.a{
+    position: relative;
+    bottom: 2em;
+
+}
+.more{
+    position: relative;
+    left: 10em;
+    top: 3.4em;
+}
+.boxs{
+    display: flex;
+    column-gap: 1em;
+
+}
+.box-1{
+    background-color:#1E1629;
+    position: relative;
+    top: 2.9em;
+    left: 11em;
+    width: 16em;
+    height: 19em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    line-height: 1.5;
+    padding-left: 1.5em;
+    
+
+
+
+}
+.col{
+    position: relative;
+    top: 5em;
+    left: 11em;
+}
+.net{
+    width: 76%;
+    height: 2.5em;
+    background-color: #2D2D2D;
+    padding-top: 1em;
+    color: aliceblue;
+    padding-left: 1.5em;
+    
+
+
+
+}
+.net:hover{
+    background-color: #424141;
+}
+.read{
+    position: relative;
+     top: 9em;
+     left: 30em;
+}
+.inpt{
+    position: relative;
+    top: 10em;
+    right:3em;
+    width:100% ;
+  
+}
+a{
+    color: #f4ecec;
+    
+}
+li{
+    list-style: none;
+    column-gap: em;
+    text-decoration: none;
+
+}
+.fotr{
+   position: relative;
+   top: 12em;
+   left: 13em;
+}
+ul{
+padding-top: 2.5em;
+}
+
+.sec{
+    position: relative;
+    left: 17em;
+    bottom: 11.5em;
+}
+.sec-1{
+    position: relative;
+    left: 35em;
+    bottom: 23em;
+}
+.sec-2{
+    position: relative;
+    left: 52em;
+    bottom: 34.5em;
+}
+#lang{
+    position: relative;
+    bottom: 38em;
+    left: 3.1em;
+    background-color: #000000;
+    color: aliceblue;
+    height: 1.9em;
+    width: 7em;
+    font-weight: 700;
+    padding-left: 9px;
+}
+.ntt{
+    position: relative;
+    bottom: 30em;
+    left: 2.5em;
+}
+#nxt{
+    position: relative;
+    left: 26em;
+    bottom: 4.5em
+}
+ .imgg-1{
+   display: flex;
+   justify-content: flex-end;
+    
+    
+} 
+.div1{
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.div2{
+    margin-top: 42px;
+    margin-right: 15px;
+}
+.div3{
+    margin-top: 58px;
+    margin-right: 15px;
+}
+.div4{
+    margin-top: -4px;
+    margin-right: 15px;
+}
+.kk  {
+    font-size: 80px;
+    font-weight: bolder;
+    position: relative;
+    top: 2.5em;
+    left: 1.3em;
+    color: rgb(209, 13, 33);
+
+
+}
+
+
